@@ -17,6 +17,7 @@
     width: 100%;
     background-color: #ddd;
     border-radius: 20px;
+    
   }
   
   .skills {
@@ -24,6 +25,8 @@
     padding-top: 10px;
     padding-bottom: 10px;
     color: white;
+    margin-top: 15px;
+    margin-bottom: 5px;
   }
   
   .html {width: 95%; border-radius: 25px; background-color: #04AA6D;}
@@ -37,6 +40,11 @@
     height: 40px;
     border-radius: 50%;
     margin-left: 5%;
+}
+.link-bar{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
 }
 html{
     font-size: 62.5%;
