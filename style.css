@@ -29,12 +29,12 @@
     margin-bottom: 5px;
   }
   
-  .html {width: 95%; border-radius: 25px; background-color: #04AA6D;}
-  .css {width: 90%; border-radius: 25px; background-color: #2196F3;}
-  .tailwind{width:88%; border-radius: 25px; background-color: #eeb647;}
-  .bootstrap{width:85%;border-radius: 25px; background-color: #ee47a8;}
-  .js {width: 75%;border-radius: 25px; background-color: #f44336;}
-  .react {width: 70%;border-radius: 25px; background-color: #808080;}
+  .html {width: 95%; border-radius: 25px;  background-image: linear-gradient(to right, red,orange,green,blue,indigo,rgb(226, 106, 226));}
+  .css {width: 90%; border-radius: 25px;  background-image: linear-gradient(to right, red,orange,green,blue,indigo,violet);}
+  .tailwind{width:88%; border-radius: 25px;  background-image: linear-gradient(to right, red,orange,green,blue,indigo,violet);}
+  .bootstrap{width:85%;border-radius: 25px;  background-image: linear-gradient(to right, red,orange,green,blue,indigo,violet);}
+  .js {width: 75%;border-radius: 25px;  background-image: linear-gradient(to right, red,orange,green,blue,indigo,violet);}
+  .react {width: 70%;border-radius: 25px;  background-image: linear-gradient(to right, red,orange,green,blue,indigo,violet);}
 .link{
     width: 40px;
     height: 40px;
