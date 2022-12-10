@@ -244,6 +244,7 @@ header .navbar a:hover{
     padding:1rem 0;
 }
 
+
 .services .box-container .box h3{
     color:#222;
     font-size: 2.5rem;
@@ -278,7 +279,12 @@ header .navbar a:hover{
     width:100%;
     object-fit: cover;
 }
-
+.portfolio .box-container .box p{
+    color:#333;
+    font-size:1.7rem;
+    padding:1rem 0;
+    line-height: 2;
+}
 .portfolio .box-container .box .content{
     height: 100%;
     width:100%;
