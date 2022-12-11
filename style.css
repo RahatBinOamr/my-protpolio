@@ -303,7 +303,7 @@ header .navbar a:hover{
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     position: relative;
     overflow:hidden;
-    /* height:25rem; */
+    height:25rem;
 }
 
 .portfolio .box-container .box img{
@@ -414,7 +414,11 @@ header .navbar a:hover{
     color:var(--green);
 }
 
-
+.header{
+    font-weight: 700;
+    color: #27ae60;
+    font-size: 30px;
+}
   
  
 
