@@ -303,20 +303,20 @@ header .navbar a:hover{
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     position: relative;
     overflow:hidden;
-    height:25rem;
+    /* height:25rem; */
 }
 
 .portfolio .box-container .box img{
     height: 100%;
     width:100%;
-    object-fit: cover;
+    /* object-fit: cover; */
 }
-.portfolio .box-container .box p{
+/* .portfolio .box-container  .div-box{
     color:#333;
     font-size:1.7rem;
     padding:1rem 0;
     line-height: 2;
-}
+} */
 .portfolio .box-container .box .content{
     height: 100%;
     width:100%;
@@ -327,7 +327,14 @@ header .navbar a:hover{
     align-items: center;
     justify-content: center;
 }
-
+.portfolio .box-container .box .content a{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.portfolio .box-container .box .content .btn{
+    margin-left: 10px;
+    margin-right: 10px;
+}
 .portfolio .box-container .box:hover .content{
     left:0;
 }
@@ -392,6 +399,7 @@ header .navbar a:hover{
 
 .contact .row form .btn{
     margin:.5rem 0;
+    
 }
 
 .footer{
@@ -405,6 +413,12 @@ header .navbar a:hover{
 .footer span{
     color:var(--green);
 }
+
+
+  
+ 
+
+
 
 /* media queries  */
 @media (max-width:991px){
